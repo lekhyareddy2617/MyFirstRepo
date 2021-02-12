@@ -2,7 +2,8 @@
 int main()
 {
 printf(" Enter a number:\n");        
-int num;    
+int num,n;    
 scanf("%d",&num);
-printf("The number is %d\n",num);
+n=num+1;
+printf("The next number is %d\n",n);
 }
